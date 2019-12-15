@@ -1,0 +1,487 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/workspace/vivado/AsmCPU/AsmCPU.sim/sim_1/behav/modelsim
+valu
+Z1 !s110 1573358724
+!i10b 1
+!s100 >f^mn9<TKQJ;n3I@_eSe<2
+IYlV[?EJgcaBiPWOE3VW?U0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1573267969
+8../../../../AsmCPU.srcs/sources_1/new/alu.v
+F../../../../AsmCPU.srcs/sources_1/new/alu.v
+L0 1
+Z3 OP;L;10.4c;61
+r1
+!s85 0
+31
+Z4 !s108 1573358723.000000
+Z5 !s107 ../../../../AsmCPU.srcs/sim_1/new/cpu_tb.v|../../../../AsmCPU.srcs/sources_1/new/sel81.v|../../../../AsmCPU.srcs/sources_1/new/sel41.v|../../../../AsmCPU.srcs/sources_1/new/sel21.v|../../../../AsmCPU.srcs/sources_1/new/sccomp_dataflow.v|../../../../AsmCPU.srcs/sources_1/new/mem_wb.v|../../../../AsmCPU.srcs/sources_1/new/if_id.v|../../../../AsmCPU.srcs/sources_1/new/id_ex.v|../../../../AsmCPU.srcs/sources_1/new/i_decoder.v|../../../../AsmCPU.srcs/sources_1/new/g_reg.v|../../../../AsmCPU.srcs/sources_1/new/ex_mem.v|../../../../AsmCPU.srcs/sources_1/new/dmem_store.v|../../../../AsmCPU.srcs/sources_1/new/dmem_driver.v|../../../../AsmCPU.srcs/sources_1/new/ctrl.v|../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v|../../../../AsmCPU.srcs/sources_1/new/clk_divider.v|../../../../AsmCPU.srcs/sources_1/new/alu.v|../../../../AsmCPU.srcs/sources_1/new/RegFile.v|../../../../AsmCPU.srcs/sources_1/new/MUL.v|../../../../AsmCPU.srcs/sources_1/new/DIV.v|../../../../AsmCPU.srcs/sources_1/new/CP0.v|../../../../AsmCPU.srcs/sources_1/ip/Imem/sim/Imem.v|
+Z6 !s90 -64|-incr|-work|xil_defaultlib|../../../../AsmCPU.srcs/sources_1/ip/Imem/sim/Imem.v|../../../../AsmCPU.srcs/sources_1/new/CP0.v|../../../../AsmCPU.srcs/sources_1/new/DIV.v|../../../../AsmCPU.srcs/sources_1/new/MUL.v|../../../../AsmCPU.srcs/sources_1/new/RegFile.v|../../../../AsmCPU.srcs/sources_1/new/alu.v|../../../../AsmCPU.srcs/sources_1/new/clk_divider.v|../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v|../../../../AsmCPU.srcs/sources_1/new/ctrl.v|../../../../AsmCPU.srcs/sources_1/new/dmem_driver.v|../../../../AsmCPU.srcs/sources_1/new/dmem_store.v|../../../../AsmCPU.srcs/sources_1/new/ex_mem.v|../../../../AsmCPU.srcs/sources_1/new/g_reg.v|../../../../AsmCPU.srcs/sources_1/new/i_decoder.v|../../../../AsmCPU.srcs/sources_1/new/id_ex.v|../../../../AsmCPU.srcs/sources_1/new/if_id.v|../../../../AsmCPU.srcs/sources_1/new/mem_wb.v|../../../../AsmCPU.srcs/sources_1/new/sccomp_dataflow.v|../../../../AsmCPU.srcs/sources_1/new/sel21.v|../../../../AsmCPU.srcs/sources_1/new/sel41.v|../../../../AsmCPU.srcs/sources_1/new/sel81.v|../../../../AsmCPU.srcs/sim_1/new/cpu_tb.v|
+!i113 1
+Z7 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vclk_divider
+!s10a 1572760323
+Z8 !s110 1573099023
+!i10b 1
+!s100 18F8:zMgjbcO3RPg4KU:63
+In]jgcZmfokoDQjkRP[zdN3
+R2
+R0
+w1572760323
+8../../../../AsmCPU.srcs/sources_1/new/clk_divider.v
+F../../../../AsmCPU.srcs/sources_1/new/clk_divider.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z9 !s108 1573099023.000000
+R5
+R6
+!i113 1
+R7
+vCP0
+!s10a 1572680925
+R8
+!i10b 1
+!s100 986Qlm_^7R?dBLLT;2]bO1
+I<6M88lnIOFSC=Z]Mm;zfZ3
+R2
+R0
+w1572680925
+8../../../../AsmCPU.srcs/sources_1/new/CP0.v
+F../../../../AsmCPU.srcs/sources_1/new/CP0.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+n@c@p0
+vcpu_bus
+R1
+!i10b 1
+!s100 RzSUGi1G7=c;6iYOCERgA2
+I@hG8ED]g3bhN;NU]@jVnh2
+R2
+R0
+w1573357432
+8../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v
+F../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vcpu_tb
+R1
+!i10b 1
+!s100 4?i=;j>]?Z<3Jzohk@MZ41
+I?3z^BhdLehND]HP=;LWD13
+R2
+R0
+w1573354091
+8../../../../AsmCPU.srcs/sim_1/new/cpu_tb.v
+F../../../../AsmCPU.srcs/sim_1/new/cpu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vctrl
+R1
+!i10b 1
+!s100 F7]`YWZ`B1oGjN<]n^mbl2
+Id=8R8ekETeRUJm[c@f[TA2
+R2
+R0
+w1573356299
+8../../../../AsmCPU.srcs/sources_1/new/ctrl.v
+F../../../../AsmCPU.srcs/sources_1/new/ctrl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vDIV
+!s10a 1560052364
+R8
+!i10b 1
+!s100 ]JV7Z5Y3@gT7=ChW7Mi<J3
+IO5TSihZNbdAC5UCi:0F6R1
+R2
+R0
+w1560052364
+8../../../../AsmCPU.srcs/sources_1/new/DIV.v
+F../../../../AsmCPU.srcs/sources_1/new/DIV.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+n@d@i@v
+vdmem_driver
+R1
+!i10b 1
+!s100 f3neOm74B<K8Rd`gKQPga0
+IPK6aEiZYRN7NmlWQ`iiQA0
+R2
+R0
+w1573357629
+8../../../../AsmCPU.srcs/sources_1/new/dmem_driver.v
+F../../../../AsmCPU.srcs/sources_1/new/dmem_driver.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vdmem_store
+!s10a 1573089603
+R8
+!i10b 1
+!s100 o5b?JeCKaDFW5K8ROE^Ok1
+ILZgzdB7Bl2I5RPd0imW@S3
+R2
+R0
+w1573089603
+8../../../../AsmCPU.srcs/sources_1/new/dmem_store.v
+F../../../../AsmCPU.srcs/sources_1/new/dmem_store.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+vex_mem
+R1
+!i10b 1
+!s100 mM86o:L>_fWWYAQKB9W2o0
+I0HJ8>iLg]1cQM2h3]0z[a2
+R2
+R0
+w1573314841
+8../../../../AsmCPU.srcs/sources_1/new/ex_mem.v
+F../../../../AsmCPU.srcs/sources_1/new/ex_mem.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vg_reg
+!s10a 1573306526
+R8
+!i10b 1
+!s100 hYR7UU4ih`ZQ2ThV6@fO03
+IMl0oL?7VecL2S_cXS;PU10
+R2
+R0
+w1572761353
+8../../../../AsmCPU.srcs/sources_1/new/g_reg.v
+F../../../../AsmCPU.srcs/sources_1/new/g_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+vglbl
+R1
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+I`Mbk0oHiBm0dNc:a>md]<3
+R2
+R0
+w1544155481
+8glbl.v
+Fglbl.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1573358724.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R7
+vi_decoder
+!s10a 1573093032
+R8
+!i10b 1
+!s100 PV:^<19:MCj5gX170kih@1
+IQ_j_mNQH`B7lg0NJXiX<01
+R2
+R0
+w1573093032
+8../../../../AsmCPU.srcs/sources_1/new/i_decoder.v
+F../../../../AsmCPU.srcs/sources_1/new/i_decoder.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+vid_ex
+R1
+!i10b 1
+!s100 cL[bY4A?nB6[o3e7G^BeP1
+I_6[]aY9z4R_@z3g=_?Je50
+R2
+R0
+w1573314635
+8../../../../AsmCPU.srcs/sources_1/new/id_ex.v
+F../../../../AsmCPU.srcs/sources_1/new/id_ex.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vif_id
+!s10a 1572761386
+R8
+!i10b 1
+!s100 G`dO5Y?oD=G_JfXkb:bZ80
+I>[@TiPXJUi>haWI:lj>jW1
+R2
+R0
+w1572761386
+8../../../../AsmCPU.srcs/sources_1/new/if_id.v
+F../../../../AsmCPU.srcs/sources_1/new/if_id.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+vImem
+!s10a 1573357706
+R8
+!i10b 1
+!s100 _Ua1UHd_DB^e06ZMPP65I1
+INB:nhanU8MIfEf`WM<ZJR2
+R2
+R0
+w1573098747
+8../../../../AsmCPU.srcs/sources_1/ip/Imem/sim/Imem.v
+F../../../../AsmCPU.srcs/sources_1/ip/Imem/sim/Imem.v
+L0 56
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+n@imem
+vmem_wb
+R1
+!i10b 1
+!s100 XOP:`035UI:1nm]6>AJ_`3
+Ia06`H7Sl=B8ZNa>U[WM@G0
+R2
+R0
+w1573315362
+8../../../../AsmCPU.srcs/sources_1/new/mem_wb.v
+F../../../../AsmCPU.srcs/sources_1/new/mem_wb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vMUL
+R1
+!i10b 1
+!s100 H^7CE]Q]LYBXV:Dz<T8:c1
+I?]ZbJ1gKRDJbNf[R63fL02
+R2
+R0
+w1573222361
+8../../../../AsmCPU.srcs/sources_1/new/MUL.v
+F../../../../AsmCPU.srcs/sources_1/new/MUL.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@m@u@l
+vRegFile
+R1
+!i10b 1
+!s100 4BBTc@zFTk`LMRaNW1W>?0
+I<9d=kaFW2;2ZIV8bSL8Tl0
+R2
+R0
+w1573306526
+8../../../../AsmCPU.srcs/sources_1/new/RegFile.v
+F../../../../AsmCPU.srcs/sources_1/new/RegFile.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@reg@file
+vsccomp_dataflow
+!s10a 1573089827
+R8
+!i10b 1
+!s100 AY=]eS7;_`ba0WHi@1c0c2
+IWVcB5;1[LPN>hWRaEaCe91
+R2
+R0
+w1573089827
+8../../../../AsmCPU.srcs/sources_1/new/sccomp_dataflow.v
+F../../../../AsmCPU.srcs/sources_1/new/sccomp_dataflow.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+vsel21
+!s10a 1572684021
+R8
+!i10b 1
+!s100 L_jbj8<YVK8>f1^=6VCFU3
+I85aKJI9oPIYQjlQYDSMfz2
+R2
+R0
+w1572684021
+8../../../../AsmCPU.srcs/sources_1/new/sel21.v
+F../../../../AsmCPU.srcs/sources_1/new/sel21.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+vsel41
+!s10a 1572765311
+R8
+!i10b 1
+!s100 7T?6ojVEA6bEf3;Mc=Pn92
+IS:V3:I1XnFf^3<6F>AK=A1
+R2
+R0
+w1572765311
+8../../../../AsmCPU.srcs/sources_1/new/sel41.v
+F../../../../AsmCPU.srcs/sources_1/new/sel41.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7
+vsel81
+!s10a 1572682240
+R8
+!i10b 1
+!s100 K3EjI>?DSDGh88>8<=8FG3
+Ich1KPmGYJ?b=CKbAD:i`21
+R2
+R0
+w1572682240
+8../../../../AsmCPU.srcs/sources_1/new/sel81.v
+F../../../../AsmCPU.srcs/sources_1/new/sel81.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+R5
+R6
+!i113 1
+R7

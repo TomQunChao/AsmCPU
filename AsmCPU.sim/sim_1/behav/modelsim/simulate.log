@@ -1,0 +1,86 @@
+# do {cpu_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -lib xil_defaultlib xil_defaultlib.cpu_tb xil_defaultlib.glbl 
+# Start time: 12:05:31 on Nov 10,2019
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.cpu_tb
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.cpu_bus
+# Loading xil_defaultlib.clk_divider
+# Loading xil_defaultlib.g_reg
+# Loading xil_defaultlib.sel81
+# Loading xil_defaultlib.Imem
+# Loading dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12
+# Loading xil_defaultlib.if_id
+# Loading xil_defaultlib.id_ex
+# Loading xil_defaultlib.sel21
+# Loading xil_defaultlib.sel41
+# Loading xil_defaultlib.alu
+# Loading xil_defaultlib.MUL
+# Loading xil_defaultlib.DIV
+# Loading xil_defaultlib.ex_mem
+# Loading xil_defaultlib.dmem_driver
+# Loading xil_defaultlib.mem_wb
+# Loading xil_defaultlib.CP0
+# Loading xil_defaultlib.RegFile
+# Loading xil_defaultlib.ctrl
+# Loading xil_defaultlib.i_decoder
+# Loading xil_defaultlib.dmem_store
+# Loading xil_defaultlib.glbl
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(28): [PCDPC] - Port size (13) does not match connection size (30) for port 'a'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/ip/Imem/sim/Imem.v(57).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/imem File: ../../../../AsmCPU.srcs/sources_1/ip/Imem/sim/Imem.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(77): [PCDPC] - Port size (2) does not match connection size (3) for port 'sel'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/sel41.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/hi_selector File: ../../../../AsmCPU.srcs/sources_1/new/sel41.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(78): [PCDPC] - Port size (2) does not match connection size (3) for port 'sel'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/sel41.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/lo_selector File: ../../../../AsmCPU.srcs/sources_1/new/sel41.v
+# ** Warning: (vsim-3017) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(79): [TFMPC] - Too few port connections. Expected 9, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/alu_ex File: ../../../../AsmCPU.srcs/sources_1/new/alu.v
+# ** Warning: (vsim-3722) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(79): [TFMPC] - Missing connection for port 'carry'.
+# ** Warning: (vsim-3722) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(79): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3017) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(116): [TFMPC] - Too few port connections. Expected 17, found 16.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/memwb_layer File: ../../../../AsmCPU.srcs/sources_1/new/mem_wb.v
+# ** Warning: (vsim-3722) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(116): [TFMPC] - Missing connection for port 'cp0_ro'.
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(134): [PCDPC] - Port size (32) does not match connection size (5) for port 'dat1'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/sel41.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/rd_selector File: ../../../../AsmCPU.srcs/sources_1/new/sel41.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(134): [PCDPC] - Port size (32) does not match connection size (5) for port 'dat2'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/sel41.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/rd_selector File: ../../../../AsmCPU.srcs/sources_1/new/sel41.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(134): [PCDPC] - Port size (32) does not match connection size (5) for port 'data'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/sel41.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/rd_selector File: ../../../../AsmCPU.srcs/sources_1/new/sel41.v
+# ** Warning: (vsim-3017) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(135): [TFMPC] - Too few port connections. Expected 15, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/cp0 File: ../../../../AsmCPU.srcs/sources_1/new/CP0.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(135): [PCDPC] - Port size (32) does not match connection size (1) for port 'wdata'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/CP0.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/cp0 File: ../../../../AsmCPU.srcs/sources_1/new/CP0.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(135): [PCDPC] - Port size (5) does not match connection size (32) for port 'cause'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/CP0.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/cp0 File: ../../../../AsmCPU.srcs/sources_1/new/CP0.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(135): [PCDPC] - Port size (1) does not match connection size (32) for port 'intr'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/CP0.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/cp0 File: ../../../../AsmCPU.srcs/sources_1/new/CP0.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(135): [PCDPC] - Port size (32) does not match connection size (1) for port 'rdata'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/CP0.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/cp0 File: ../../../../AsmCPU.srcs/sources_1/new/CP0.v
+# ** Warning: (vsim-3722) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(135): [TFMPC] - Missing connection for port 'timerInt'.
+# ** Warning: (vsim-3722) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(135): [TFMPC] - Missing connection for port 'execAddr'.
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(139): [PCDPC] - Port size (2) does not match connection size (3) for port 'm4_sel'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/ctrl.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/c File: ../../../../AsmCPU.srcs/sources_1/new/ctrl.v
+# ** Warning: (vsim-3015) ../../../../AsmCPU.srcs/sources_1/new/cpu_bus.v(139): [PCDPC] - Port size (2) does not match connection size (3) for port 'm5_sel'. The port definition is at: ../../../../AsmCPU.srcs/sources_1/new/ctrl.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/c File: ../../../../AsmCPU.srcs/sources_1/new/ctrl.v
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 104 of file "Imem.mif". Expected 8192, found 103.    : ../../../../AsmCPU.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/sd/cb/imem/inst
+# End time: 12:09:19 on Nov 10,2019, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 21
